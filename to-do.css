@@ -1,0 +1,116 @@
+body{
+    background: linear-gradient(45deg,rgb(231, 231, 13),rgb(170, 240, 42), rgb(39, 192, 39));
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-top: 100px;
+    font-style: italic;
+}
+span{
+    font-size: 20px;
+}
+.container{
+    background-color: white;
+    min-height: 500px;
+    border-radius: 30px;
+    padding: 40px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    margin: 0;
+}
+.para1{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.para2{
+    margin-bottom: 35px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-box{
+    display: grid;
+    grid-template-columns: 380px 70px;
+    column-gap: 10px;
+}
+.text-box{
+    padding: 15px 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(120, 238, 120);
+    font-size: 17px;
+}
+input::placeholder{
+    font-size: 17px;
+}
+.add-button{
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background: linear-gradient(45deg,rgb(243, 243, 5),rgb(159, 233, 21), rgb(56, 231, 56));
+}
+.add-button:hover{
+    box-shadow: 0 0 10px rgba(147, 223, 6, 0.95);
+    transition: all 0.3s ease;
+    transform: translateY(-2px);
+}
+.inner-div{
+    display: grid;
+    grid-template-columns: 250px 77px 78px;
+    background-color: rgb(245, 247, 242);
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-top: 20px;
+    column-gap: 12px;
+    align-items: center;
+    font-size: 17px;
+    border: 1px solid rgb(231, 213, 213);
+
+}
+.inner-div:hover{
+    box-shadow: 0 0 10px rgba(117, 117, 116, 0.25);
+    transition: all 0.3s ease;
+    transform: translateY(-2px);
+}
+.complete-button,
+.delete-button{
+    border: none;
+    padding: 8px 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.complete-button{
+    background-color: green;
+}
+.delete-button{
+    background-color: red;
+}
+.complete-button:hover{
+    box-shadow: 0 0 10px rgba(136, 252, 132, 0.95);
+    transition: all 0.3s ease;
+    transform: translateY(-2px);
+}
+.delete-button:hover{
+    box-shadow: 0 0 10px rgba(240, 96, 115, 0.95);
+    transition: all 0.3s ease;
+    transform: translateY(-2px);
+}
