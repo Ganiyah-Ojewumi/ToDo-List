@@ -1,6 +1,12 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
 body{
     background: linear-gradient(45deg,rgb(231, 231, 13),rgb(170, 240, 42), rgb(39, 192, 39));
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,4 +119,5 @@ input::placeholder{
     box-shadow: 0 0 10px rgba(240, 96, 115, 0.95);
     transition: all 0.3s ease;
     transform: translateY(-2px);
+
 }
