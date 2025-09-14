@@ -13,7 +13,11 @@
             <p class="para2">Stay organized and get things done!</p>
         </div>
         <div class="input-box">
-            <input placeholder="What needs to be done?" class="js-text-box text-box">
+            <input placeholder="What needs to be done?" class="js-text-box text-box" onkeydown="
+                if(event.key === 'Enter'){
+                    addToDo();
+                }
+                ">
             <button class="add-button" onclick="
                 addToDo();
             ">Add</button>
@@ -26,4 +30,5 @@
     </div>
     <script src="to-do.js"></script>
 </body>
+
 </html>
